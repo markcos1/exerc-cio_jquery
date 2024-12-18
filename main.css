@@ -18,7 +18,6 @@ header button{
     background-color: green;   
     cursor: pointer;
     
-
 }
 form{
     padding: 16px;
@@ -26,9 +25,6 @@ form{
     display: none;
     padding-bottom: 30px;
     background-color: darkgreen;
-}
-form button{
-    cursor: pointer;
 }
 form h2{
     margin-bottom: 14px;
@@ -43,4 +39,7 @@ ul{
 }
 li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: none;
 }

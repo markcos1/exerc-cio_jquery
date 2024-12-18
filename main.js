@@ -1,26 +1,12 @@
 $(document).ready(function() {
     $('#botao-nova-tarefa').click(function(){
         $('form').slideDown();
+        $('#botao-resetar').click(function(){
+            $('form').slideUp();
+        })
     })
 
-    $('#botao-cancelar').click(function(){
-        $('form').slideUp();
-    })
+    $(form).ready(` <input type="text"  id="nova-tarefa"  placeholder="Nome da tarefa">`);
 
-    $('form').on('submit', function(e){
-        e.preventDefault();
-        const novaTarefa = $('#nova-tarefa').val();
-        const novoItem = $(`<li style="display: none"></li>`);
-        $(`<img src="${ enderecoDaNovaImagem}" />`).appendTo(novoItem);
-        $(`
-            <div class="overlay-imagem-link">
-            <a href="${enderecoDaNovaImagem}" target="_blank" title="Ver imagem em tamanho real">
-                Ver imagem em tamanho real
-            </a>
-            </div>
-            `).appendTo(novoItem);
-        $(novoItem).appendTo('ul');    
-        $(novoItem).fadeIn(1000);
-        $('#endereço-imagem-nova').val('');
-    })
+
 })
