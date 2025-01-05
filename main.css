@@ -43,3 +43,6 @@ li{
 .container{
     display: none;
 }
+input{
+    cursor: pointer;
+}

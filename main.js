@@ -6,7 +6,9 @@ $(document).ready(function() {
         })
     })
 
-    $(form).ready(` <input type="text"  id="nova-tarefa"  placeholder="Nome da tarefa">`);
+    const tarefa = novo-item.val('nova-tarefa');
+    const adicionarItem = botao-enviar.val('novo-item');
 
+    $(adicionarItem).on('submit');
 
 })
