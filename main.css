@@ -30,7 +30,6 @@ form h2{
     margin-bottom: 14px;
 }
 ul{
-    background-color: aquamarine;
     cursor: pointer;
     text-decoration: line-through;
     display: flex;
