@@ -13,11 +13,18 @@ header{
     justify-content: center;
     background-color: blue;
 }
-header button{
+button{
+    padding: 5px;
+    font-weight: bold;
+    border: none;
     margin-left: 20px;
     background-color: green;   
     cursor: pointer;
     
+}
+#botao-resetar{
+    background-color: red;
+    font-weight: bold;
 }
 form{
     padding: 16px;
@@ -25,6 +32,15 @@ form{
     display: none;
     padding-bottom: 30px;
     background-color: darkgreen;
+}
+#nova-tarefa{
+    cursor: auto;
+}
+#botao-enviar{
+    background-color: rgb(68, 218, 68) ;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
 }
 form h2{
     margin-bottom: 14px;
