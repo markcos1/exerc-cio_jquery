@@ -5,5 +5,16 @@ $(document).ready(function() {
     $('#botao-resetar').click(function(){
         $('#funcao-adicionar').slideUp();
     })
+
+    let nomeDaTarefa = ('#nova-tarefa');
+
+    $('#nova-tarefa').ready(function(){
+        $('#nova-tarefa').val();
+    });
+  //click ou submit//
+    $('#botao-enviar').submit(function(){
+        
+
+    });
 });
 
