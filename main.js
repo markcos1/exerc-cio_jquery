@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('#nova-tarefa').ready(function(){
         $('#nova-tarefa').val();
     });
-  //click ou submit//
+    
     $('#botao-enviar').submit(function(){
         
 
