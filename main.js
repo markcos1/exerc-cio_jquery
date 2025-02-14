@@ -6,15 +6,13 @@ $(document).ready(function() {
         $('#funcao-adicionar').slideUp();
     })
 
-    let nomeDaTarefa = ('#nova-tarefa');
 
-    $('#nova-tarefa').ready(function(){
-        $('#nova-tarefa').val();
-    });
-    
-    $('#botao-enviar').submit(function(){
+    $('form').on('submit', function(e){
+        e.preventDefault();
+        const nomeDaNovaAtividade = $('nova-tarefa').val();
+        const novoItem = $('<li></li>');
         
+    })
 
-    });
 });
 
