@@ -47,13 +47,15 @@ form h2{
 }
 ul{
     cursor: pointer;
-    text-decoration: line-through;
-    display: flex;
+    display: block;
     justify-content: start;
     padding: 16px;
 }
 li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: line-through;
+    display: block;
+    margin-bottom: 30px;
 }
 .container{
     display: none;
