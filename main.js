@@ -11,7 +11,9 @@ $(document).ready(function() {
         e.preventDefault();
         const nomeDaNovaAtividade = $('nova-tarefa').val();
         const novoItem = $('<li></li>');
-        
+        $(`<li> ${nomeDaNovaAtividade}</li>`).appendTo(novoItem);
+        $(novoItem).appendTo('ul');
+        $('nova-tarefa').val('');
     })
 
 });
