@@ -15,7 +15,7 @@ $(document).ready(function() {
         $(novoItem).appendTo('ul');
         $('#nova-tarefa').val('');
         $(novoItem).click(function(){
-            $("text-decoration: line-through").show();
+            $(this).css('text-decoration', 'line-through');
         })
     })
 
