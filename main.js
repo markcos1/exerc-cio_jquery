@@ -9,11 +9,14 @@ $(document).ready(function() {
 
     $('form').on('submit', function(e){
         e.preventDefault();
-        const nomeDaNovaAtividade = $('nova-tarefa').val();
+        const nomeDaNovaAtividade = $('#nova-tarefa').val();
         const novoItem = $('<li></li>');
         $(`<li> ${nomeDaNovaAtividade}</li>`).appendTo(novoItem);
         $(novoItem).appendTo('ul');
-        $('nova-tarefa').val('');
+        $('#nova-tarefa').val('');
+        $(novoItem).click(function(){
+            $("text-decoration: line-through").show();
+        })
     })
 
 });
